@@ -1,2 +1,2 @@
-# zonely
+# zonio
 world-clock application

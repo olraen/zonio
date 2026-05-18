@@ -1,3 +1,133 @@
 body {
-  background: whitesmoke;
+  background: #f3f4f6;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 24px;
+  color: #111827;
+}
+
+/* Main App */
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* Dropdown */
+.search-section {
+  max-width: 70%;
+  margin: 0 auto 28px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  background: white;
+}
+
+/* Cards Grid */
+.clock-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+/* Clock Card */
+.clock-card {
+  position: relative;
+  padding: 22px;
+  border-radius: 20px;
+  min-height: 160px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+}
+
+/* Card colors */
+.clock-card:nth-child(1) {
+  background: #f7e4b5;
+}
+
+.clock-card:nth-child(2) {
+  background: #d7eef7;
+}
+
+.clock-card:nth-child(3) {
+  background: #ddd4ff;
+}
+
+.clock-card:nth-child(4) {
+  background: #d7eef7;
+}
+
+/* Remove button */
+.remove-btn {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  color: #4b5563;
+}
+
+/* City Name */
+.clock-card h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Country */
+.country {
+  margin-top: 4px;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+/* Time */
+.time {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 22px 0 8px;
+}
+
+/* Date */
+.date {
+  font-size: 15px;
+  color: #374151;
+}
+
+/* Time label */
+.time-period {
+  display: inline-block;
+  margin-top: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 6px 14px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 28px;
+  color: #6b7280;
 }

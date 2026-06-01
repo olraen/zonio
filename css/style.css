@@ -60,20 +60,17 @@ select {
 }
 
 /* Card colors */
-.clock-card:nth-child(1) {
+.clock-card:nth-child(4n + 1) {
   background: #f7e4b5;
 }
-
-.clock-card:nth-child(2) {
+.clock-card:nth-child(4n + 2) {
   background: #d7eef7;
 }
-
-.clock-card:nth-child(3) {
+.clock-card:nth-child(4n + 3) {
   background: #ddd4ff;
 }
-
-.clock-card:nth-child(4) {
-  background: #d7eef7;
+.clock-card:nth-child(4n + 4) {
+  background: #d8f3dc;
 }
 
 /* Remove button */

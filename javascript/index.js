@@ -9,6 +9,11 @@ function createCityCard(cityTimeZone) {
     return;
   }
 
+  // Set current location if selected
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
+
   // Get city name
   let cityName = cityTimeZone.split("/")[1].replace("_", " ");
 
